@@ -54,7 +54,7 @@
     @apply text-[3.8rem] leading-[1.1] md:text-display md:leading-display font-semibold tracking-display text-balance;
   }
   .title {
-    @apply text-h2 font-medium leading-h2 tracking-h2 max-w-xl;
+    @apply text-h1 leading-h1 tracking-h1 md:text-h2 md:leading-h2 md:tracking-h2 font-medium max-w-xl;
   }
   .title-sm {
     @apply text-body font-semibold leading-body tracking-body;
