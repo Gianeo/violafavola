@@ -6,7 +6,7 @@ import { Section } from "@/components/primitives/Section";
 export function ProjectJustScore() {
   return (
     <Section id="justscore">
-      <Container className="space-y-12 md:space-y-8">
+      <Container className="space-y-4 md:space-y-8">
         <div className="grid grid-cols-4 gap-y-6 md:grid-cols-12 md:mb-24">
           <div className="col-span-4 flex items-center md:row-start-1 md:col-start-2 md:col-span-9">
             <div className="copy-primary">1/3 Latest Venture</div>
@@ -40,7 +40,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-145">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 md:min-h-145 mt-12">
           <div className="col-span-4 bg-neutral-light rounded-md relative overflow-hidden aspect-video md:col-start-2 md:col-span-7 md:max-h-130">
             {/* <Image
               src="/images/JustScore/js-img-1.webp"
@@ -50,7 +50,7 @@ export function ProjectJustScore() {
               sizes="(max-width: 768px) 90vw, 60vw"
             /> */}
           </div>
-          <div className="col-span-4 grid grid-cols-1 gap-6 md:col-span-3 md:gap-8">
+          <div className="col-span-4 grid grid-cols-1 gap-4 md:col-span-3 md:gap-8">
             <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 md:max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-1.2.webp"
@@ -76,8 +76,8 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-145">
-          <div className="col-span-4 grid grid-cols-1 gap-6 md:col-start-2 md:col-span-3 md:gap-8">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 md:min-h-145">
+          <div className="col-span-4 grid grid-cols-1 gap-4 md:col-start-2 md:col-span-3 md:gap-8">
             <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 md:max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-2.2.webp"
@@ -112,7 +112,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-145">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 md:min-h-145">
           <div className="col-span-4 bg-neutral-light rounded-md relative overflow-hidden aspect-video md:col-start-2 md:col-span-7 md:max-h-130">
             {/* <Image
               src="/images/JustScore/js-img-3.webp"
@@ -122,7 +122,7 @@ export function ProjectJustScore() {
               sizes="(max-width: 768px) 90vw, 60vw"
             /> */}
           </div>
-          <div className="col-span-4 grid grid-cols-1 gap-6 md:col-span-3 md:gap-8">
+          <div className="col-span-4 grid grid-cols-1 gap-4 md:col-span-3 md:gap-8">
             <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 md:max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-3.2.webp"
