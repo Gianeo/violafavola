@@ -51,7 +51,7 @@
 
 @layer components {
   .display {
-    @apply text-display font-semibold leading-display tracking-display text-balance;
+    @apply text-[3.8rem] leading-[1.1] md:text-display md:leading-display font-semibold tracking-display text-balance;
   }
   .title {
     @apply text-h2 font-medium leading-h2 tracking-h2 max-w-xl;
