@@ -40,7 +40,7 @@ export function ProjectSV() {
           </div>
           <div className="col-span-4 space-y-6 md:col-span-5 md:space-y-8">
             <div className="grid grid-cols-2 gap-4 md:flex md:gap-8">
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square">
+              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
                 {/* <Image
                 src="/images/JustScore/js-img-1.2.webp"
                 alt="JustScore interface detail"
@@ -49,7 +49,7 @@ export function ProjectSV() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               /> */}
               </div>
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square">
+              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
                 {/* <Image
                 src="/images/JustScore/js-img-1.3.webp"
                 alt="JustScore mobile preview"
@@ -60,7 +60,7 @@ export function ProjectSV() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 md:flex md:gap-8">
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square">
+              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
                 {/* <Image
                 src="/images/JustScore/js-img-1.2.webp"
                 alt="JustScore interface detail"
@@ -69,7 +69,7 @@ export function ProjectSV() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               /> */}
               </div>
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square">
+              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
                 {/* <Image
                 src="/images/JustScore/js-img-1.3.webp"
                 alt="JustScore mobile preview"
