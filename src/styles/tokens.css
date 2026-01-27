@@ -1,4 +1,11 @@
 @theme {
+  --color-neutral-lightest: hsl(var(--neutral-lightest));
+  --color-neutral-lighter: hsl(var(--neutral-lighter));
+  --color-neutral-light: hsl(var(--neutral-light));
+  --color-neutral-base: hsl(var(--neutral-base));
+  --color-neutral-dark: hsl(var(--neutral-dark));
+  --color-neutral-darker: hsl(var(--neutral-darker));
+  --color-neutral-darkest: hsl(var(--neutral-darkest));
   --color-bg: hsl(var(--bg));
   --color-bg-dark: hsl(var(--bg-dark));
   --color-fg: hsl(var(--fg));

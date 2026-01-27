@@ -17,7 +17,7 @@ export function ProjectJustScore() {
               alt="JustScore logo"
               width={120}
               height={40}
-              className="ml-4 w-full min-h-[220px] h-auto"
+              className="ml-4 w-full min-h-55 h-auto"
             />
           </div>
           <div className="row-start-2 col-start-2 col-span-4 mt-8">
@@ -40,8 +40,8 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 gap-8 min-h-[580px]">
-          <div className="col-start-2 col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-[16/9] max-h-[520px]">
+        <div className="grid grid-cols-12 gap-8 min-h-145">
+          <div className="col-start-2 col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-video max-h-130">
             {/* <Image
               src="/images/JustScore/js-img-1.webp"
               alt="JustScore product overview"
@@ -51,7 +51,7 @@ export function ProjectJustScore() {
             /> */}
           </div>
           <div className="col-span-3 grid grid-cols-1 gap-8">
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-1.2.webp"
                 alt="JustScore interface detail"
@@ -60,7 +60,7 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               /> */}
             </div>
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-1.3.webp"
                 alt="JustScore mobile preview"
@@ -76,9 +76,9 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 gap-8 min-h-[580px]">
+        <div className="grid grid-cols-12 gap-8 min-h-145">
           <div className="col-start-2 col-span-3 grid grid-cols-1 gap-8">
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-2.2.webp"
                 alt="JustScore interface detail"
@@ -87,7 +87,7 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               /> */}
             </div>
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-2.3.webp"
                 alt="JustScore mobile preview"
@@ -101,7 +101,7 @@ export function ProjectJustScore() {
               <p className="copy">Participated during brainstorming sessions and user flow testing including engineers, as the employee voice, to influence design decisions.</p>
             </div>
           </div>
-          <div className="col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-[16/9] max-h-[520px]">
+          <div className="col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-video max-h-130">
             {/* <Image
               src="/images/JustScore/js-img-2.webp"
               alt="JustScore product overview"
@@ -112,8 +112,8 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 gap-8 min-h-[580px]">
-          <div className="col-start-2 col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-[16/9] max-h-[520px]">
+        <div className="grid grid-cols-12 gap-8 min-h-145">
+          <div className="col-start-2 col-span-7 bg-neutral-light rounded-md relative overflow-hidden aspect-video max-h-130">
             {/* <Image
               src="/images/JustScore/js-img-3.webp"
               alt="JustScore product overview"
@@ -123,7 +123,7 @@ export function ProjectJustScore() {
             /> */}
           </div>
           <div className="col-span-3 grid grid-cols-1 gap-8">
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-3.2.webp"
                 alt="JustScore interface detail"
@@ -132,7 +132,7 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               /> */}
             </div>
-            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-[4/3] max-h-[195px]">
+            <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-4/3 max-h-48.75">
               {/* <Image
                 src="/images/JustScore/js-img-3.3.webp"
                 alt="JustScore mobile preview"

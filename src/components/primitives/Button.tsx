@@ -14,11 +14,11 @@ export interface ButtonProps
 }
 
 const baseStyles =
-  "inline-flex items-center justify-center gap-2 rounded-full font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:pointer-events-none disabled:opacity-50";
+  "btn inline-flex items-center justify-center gap-2 rounded-full font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:pointer-events-none disabled:opacity-50";
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary: "bg-primary text-white hover:bg-primary/90",
-  secondary: "border border-border text-fg-strong hover:bg-muted",
+  secondary: "btn-secondary border border-border text-fg-strong hover:border-primary",
   ghost: "text-fg hover:bg-muted",
 };
 
@@ -30,20 +30,32 @@ const sizeStyles: Record<ButtonSize, string> = {
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
-    { className, variant = "primary", size = "md", asChild = false, ...props },
+    {
+      className,
+      variant = "primary",
+      size = "md",
+      asChild = false,
+      children,
+      ...props
+    },
     ref
   ) => {
     const classes = cn(baseStyles, variantStyles[variant], sizeStyles[size], className);
 
-    if (asChild && React.isValidElement(props.children)) {
-      const child = props.children as React.ReactElement<any>;
+    if (asChild && React.isValidElement(children)) {
+      const child = children as React.ReactElement<any>;
       return React.cloneElement(child, {
         ...props,
         className: cn(classes, child.props?.className),
+        children: child.props?.children,
       });
     }
 
-    return <button ref={ref} className={classes} {...props} />;
+    return (
+      <button ref={ref} className={classes} {...props}>
+        {children}
+      </button>
+    );
   }
 );
 

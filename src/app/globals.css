@@ -38,9 +38,10 @@
   @apply text-fg-dark-strong;
 }
 
-.tone-dark a {
-  @apply text-fg-dark;
+.tone-dark .btn-secondary {
+  @apply text-white;
 }
+
 
 @layer utilities {
   .text-balance {
