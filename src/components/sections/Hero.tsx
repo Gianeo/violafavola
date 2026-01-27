@@ -57,7 +57,7 @@ export function Hero({
           </div>
         </div>
           <div className="row-start-1 col-start-4 col-span-7 flex flex-col gap-8">
-            <h1 className="display text-fg">
+            <h1 className="display text-fg-dark-strong">
             {renderLines(headline)}
           </h1>
         </div>
@@ -71,7 +71,7 @@ export function Hero({
         </div>
 
         <div className="row-start-3 col-start-4 col-span-8 pb-16 space-y-4">
-          {renderParagraphs(subcopy, "title")}
+          {renderParagraphs(subcopy, "title text-fg-dark-strong")}
         </div>
 
         <div className="row-start-4 col-start-4 col-span-8 pt-1">
@@ -81,7 +81,7 @@ export function Hero({
         </div>
 
         <div className="row-start-4 col-start-6 col-span-5">
-          <p className="copy text-neutral-lighter columns-2 gap-8 max-w-2xl opacity-60">
+          <p className="copy text-fg-dark columns-2 gap-8 max-w-2xl">
             My work focuses on making complex tools understandable, usable, and aligned with business reality, while operating inside ambiguity.<br /><br />
 
             I spent years at the intersection of people and fast-paced environments. I became the person others relied on to solve problems, handle digital friction, and keep experiences running smoothly. Watching how tools, processes, and small design failures shaped behaviour pushed me toward designing systems that actually work for the people using them.<br /><br />

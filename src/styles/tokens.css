@@ -2,6 +2,8 @@
   --color-bg: hsl(var(--bg));
   --color-bg-dark: hsl(var(--bg-dark));
   --color-fg: hsl(var(--fg));
+  --color-fg-light: hsl(var(--fg-light));
+  --color-fg-dark: hsl(var(--fg-dark));
   --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
   --color-card: hsl(var(--card));
@@ -43,10 +45,13 @@
   --neutral-base: 225 5% 50%;
   --neutral-dark: 225 6% 40%;
   --neutral-darker: 225 7% 28%;
-  --neutral-darkest: 225 8% 18%;
+  --neutral-darkest: 225 8% 5%;
   --bg: var(--neutral-lightest);
-  --bg-dark: 225 14% 8%;
-  --fg: var(--neutral-darkest);
+  --bg-dark: var(--neutral-darkest);
+  --fg: var(--neutral-dark);
+  --fg-strong: var(--neutral-darkest);
+  --fg-dark: var(--neutral-base);
+  --fg-dark-strong: var(--neutral-light);
   --muted: var(--neutral-lighter);
   --muted-foreground: var(--neutral-dark);
   --card: 0 0% 100%;
@@ -63,6 +68,8 @@
   --bg: 225 14% 8%;
   --bg-dark: 225 14% 8%;
   --fg: 0 0% 98%;
+  --fg-light: 0 0% 98%;
+  --fg-dark: var(--neutral-darkest);
   --muted: 225 12% 16%;
   --muted-foreground: 215 12% 72%;
   --card: 225 14% 12%;
