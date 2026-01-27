@@ -15,7 +15,7 @@ export default function HomePage() {
       <Hero {...hero} />
       <Expertise {...expertise} />
       <main>
-        <DividerWave className="relative z-20 -mt-[15px]" />
+        <DividerWave className="relative z-20 -mt-3 md:-mt-3.75" />
         {/* <About {...about} /> */}
         {/* <DividerWave /> */}
         <ProjectJustScore />
@@ -24,7 +24,7 @@ export default function HomePage() {
         <DividerWave flip />
         <ProjectEarthBreath />
       </main>
-      <DividerWave flip className="relative z-20 -mb-[15px]" />
+      <DividerWave flip className="relative z-20 -mb-3 md:-mb-3.75" />
       <Footer {...footer} />
     </>
   );

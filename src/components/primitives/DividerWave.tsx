@@ -13,7 +13,10 @@ export function DividerWave({ className, flip = false }: DividerWaveProps) {
       <svg
         viewBox="0 0 1122 33"
         preserveAspectRatio="none"
-        className={cn("h-8 w-[60rem] mx-auto fill-current", flip && "rotate-180")}
+        className={cn(
+          "h-6 w-full max-w-[60rem] mx-auto fill-current md:h-8",
+          flip && "rotate-180"
+        )}
       >
         {/* <line
           x1="0"

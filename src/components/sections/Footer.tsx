@@ -32,8 +32,8 @@ export function Footer({
   return (
     <Section as="footer" tone="dark" id="contact">
       <Container>
-        <div className="grid grid-cols-12 gap-8 min-h-[580px] pt-8">
-          <div className="col-start-2 col-span-6 rounded-md relative overflow-hidden aspect-[16/9] max-h-[400px]">
+        <div className="grid grid-cols-4 gap-8 pt-8 md:grid-cols-12 md:min-h-[580px]">
+          <div className="col-span-4 rounded-md relative overflow-hidden aspect-[16/9] md:col-start-2 md:col-span-6 md:max-h-[400px]">
               <Image
                 src={image.src}
                 alt={image.alt}
@@ -42,12 +42,12 @@ export function Footer({
                 sizes="(max-width: 768px) 90vw, 40vw"
               />
           </div>
-          <div className="col-span-3 gap-8 flex flex-col">
+          <div className="col-span-4 gap-6 flex flex-col md:col-span-3 md:gap-8">
             <h2 className="text-h1 font-semibold">{renderLines(title)}</h2>
             <div className="max-w-md space-y-4">
               {renderParagraphs(body, "text-body text-muted-foreground")}
             </div>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <Button asChild size="lg">
                 <a href={primaryCta.href} className="flex items-center gap-2">
                   {renderLines(primaryCta.label)}
