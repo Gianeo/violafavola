@@ -19,7 +19,7 @@ export function Section({
     <Comp
       className={cn(
         "py-16 md:py-40",
-        tone === "dark" ? "dark bg-bg text-fg" : "bg-bg text-fg",
+        tone === "dark" ? "tone-dark bg-bg-dark text-fg-dark" : "bg-bg text-fg",
         className
       )}
       {...props}
