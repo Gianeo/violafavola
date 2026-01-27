@@ -1,34 +1,27 @@
 {
-  "name": "new-app",
+  "name": "violafavola",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@heroicons/react": "latest",
-    "@radix-ui/react-slot": "latest",
-    "class-variance-authority": "latest",
-    "clsx": "latest",
-    "lucide-react": "latest",
-    "next": "^16.1.5",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwind-merge": "latest",
-    "tailwindcss-animate": "latest"
+    "framer-motion": "^12.29.2",
+    "next": "16.1.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
