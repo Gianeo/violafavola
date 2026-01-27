@@ -2,8 +2,9 @@
   --color-bg: hsl(var(--bg));
   --color-bg-dark: hsl(var(--bg-dark));
   --color-fg: hsl(var(--fg));
-  --color-fg-light: hsl(var(--fg-light));
+  --color-fg-strong: hsl(var(--fg-strong));
   --color-fg-dark: hsl(var(--fg-dark));
+  --color-fg-dark-strong: hsl(var(--fg-dark-strong));
   --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
   --color-card: hsl(var(--card));
@@ -62,22 +63,4 @@
   --accent-foreground: var(--primary-darker);
   --ring: 268 65% 55%;
   --shadow: 210 25% 8%;
-}
-
-.dark {
-  --bg: 225 14% 8%;
-  --bg-dark: 225 14% 8%;
-  --fg: 0 0% 98%;
-  --fg-light: 0 0% 98%;
-  --fg-dark: var(--neutral-darkest);
-  --muted: 225 12% 16%;
-  --muted-foreground: 215 12% 72%;
-  --card: 225 14% 12%;
-  --border: 225 12% 20%;
-  --primary: var(--primary-base);
-  --primary-foreground: 0 0% 100%;
-  --accent: var(--primary-dark);
-  --accent-foreground: 268 40% 86%;
-  --ring: var(--primary-base);
-  --shadow: 0 0% 0%;
 }
