@@ -17,8 +17,8 @@ const baseStyles =
   "inline-flex items-center justify-center gap-2 rounded-full font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:pointer-events-none disabled:opacity-50";
 
 const variantStyles: Record<ButtonVariant, string> = {
-  primary: "bg-primary text-primary-foreground hover:bg-primary/90",
-  secondary: "border border-border text-fg hover:bg-muted",
+  primary: "bg-primary text-white hover:bg-primary/90",
+  secondary: "border border-border text-fg-strong hover:bg-muted",
   ghost: "text-fg hover:bg-muted",
 };
 
