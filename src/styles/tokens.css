@@ -1,0 +1,76 @@
+@theme {
+  --color-bg: hsl(var(--bg));
+  --color-bg-dark: hsl(var(--bg-dark));
+  --color-fg: hsl(var(--fg));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-card: hsl(var(--card));
+  --color-border: hsl(var(--border));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-ring: hsl(var(--ring));
+  --color-shadow: hsl(var(--shadow));
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+}
+
+:root {
+  --primary-lightest: 250 60% 95%;
+  --primary-lighter: 250 60% 88%;
+  --primary-light: 250 60% 78%;
+  --primary-base: 250 50% 55%;
+  --primary-dark: 250 55% 45%;
+  --primary-darker: 250 55% 32%;
+  --primary-darkest: 250 55% 28%;
+  --neutral-lightest: 225 8% 96%;
+  --neutral-lighter: 225 7% 90%;
+  --neutral-light: 225 6% 78%;
+  --neutral-base: 225 5% 50%;
+  --neutral-dark: 225 6% 40%;
+  --neutral-darker: 225 7% 28%;
+  --neutral-darkest: 225 8% 18%;
+  --bg: var(--neutral-lightest);
+  --bg-dark: 225 14% 8%;
+  --fg: var(--neutral-darkest);
+  --muted: var(--neutral-lighter);
+  --muted-foreground: var(--neutral-dark);
+  --card: 0 0% 100%;
+  --border: var(--neutral-light);
+  --primary: var(--primary-base);
+  --primary-foreground: 0 0% 100%;
+  --accent: var(--primary-lightest);
+  --accent-foreground: var(--primary-darker);
+  --ring: 268 65% 55%;
+  --shadow: 210 25% 8%;
+}
+
+.dark {
+  --bg: 225 14% 8%;
+  --bg-dark: 225 14% 8%;
+  --fg: 0 0% 98%;
+  --muted: 225 12% 16%;
+  --muted-foreground: 215 12% 72%;
+  --card: 225 14% 12%;
+  --border: 225 12% 20%;
+  --primary: var(--primary-base);
+  --primary-foreground: 0 0% 100%;
+  --accent: var(--primary-dark);
+  --accent-foreground: 268 40% 86%;
+  --ring: var(--primary-base);
+  --shadow: 0 0% 0%;
+}

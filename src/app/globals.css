@@ -1,26 +1,60 @@
 @import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../styles/typography.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  * {
+    @apply border-border;
+  }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  body {
+    @apply bg-bg text-fg font-sans text-body antialiased;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold text-fg;
+  }
+
+  p {
+    @apply text-body text-fg;
+  }
+
+  a {
+    @apply text-fg;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .display {
+    @apply text-display font-semibold text-balance;
+  }
+  .title {
+    @apply text-h2 font-medium max-w-xl;
+  }
+  .title-sm {
+    @apply text-body font-semibold;
+  }
+  .copy {
+    @apply text-body font-normal;
+  }
+  .copy-sm {
+    @apply text-small;
+  }
+  .copy-lg {
+    @apply text-large;
+  }
+  .copy-primary {
+    @apply whitespace-nowrap text-primary text-xs font-semibold tracking-[0.6rem];
+  }
 }
