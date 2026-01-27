@@ -37,24 +37,24 @@
 
 @layer components {
   .display {
-    @apply text-display font-semibold text-balance;
+    @apply text-display font-semibold leading-display tracking-display text-balance;
   }
   .title {
-    @apply text-h2 font-medium max-w-xl;
+    @apply text-h2 font-medium leading-h2 tracking-h2 max-w-xl;
   }
   .title-sm {
-    @apply text-body font-semibold;
+    @apply text-body font-semibold leading-body tracking-body;
   }
   .copy {
-    @apply text-body font-normal;
+    @apply text-body font-normal leading-body tracking-body;
   }
   .copy-sm {
-    @apply text-small;
+    @apply text-small leading-small tracking-small;
   }
   .copy-lg {
-    @apply text-large;
+    @apply text-large leading-large tracking-large;
   }
   .copy-primary {
-    @apply whitespace-nowrap text-primary text-xs font-semibold tracking-[0.6rem];
+    @apply whitespace-nowrap text-primary text-xs font-semibold tracking-[0.6rem] leading-overline;
   }
 }
