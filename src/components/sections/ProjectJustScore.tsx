@@ -40,7 +40,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 mt-12">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 lg:gap-16 md:min-h-145 mt-12">
           <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:col-start-5 md:col-span-7 h-96 md:h-auto md:max-h-164 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-1.webp"
@@ -77,7 +77,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 md:mt-12">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 lg:gap-16 md:min-h-145 md:mt-12">
           <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 h-96 md:h-auto md:max-h-164 md:col-span-7 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-4.webp"
@@ -114,7 +114,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 lg:gap-16 md:min-h-145">
           <div className="col-span-4 grid grid-cols-1 gap-4 md:col-start-2 md:col-span-3 md:gap-8">
             <div className="bg-neutral-light rounded-lg relative overflow-hidden aspect-4/3 shadow-2xl shadow-neutral-200">
               <Image
@@ -150,7 +150,7 @@ export function ProjectJustScore() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-8 lg:gap-16 md:min-h-145">
           <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 md:col-span-7 h-104 md:h-auto md:max-h-164 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-10.webp"
