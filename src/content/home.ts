@@ -52,7 +52,7 @@ export const homeContent = {
     social: [
       {
         label: "Email",
-        href: "mailto:hello@example.com",
+        href: "mailto:violafavaretto99@gmail.com",
         icon: "/images/Portfolio-V/icons/icons/mail.svg",
       },
       // {
@@ -62,7 +62,7 @@ export const homeContent = {
       // },
       {
         label: "LinkedIn",
-        href: "https://www.linkedin.com",
+        href: "https://www.linkedin.com/in/viola-favaretto-82727b114/",
         icon: "/images/icons/linkedin.svg",
       },
     ],
