@@ -41,7 +41,7 @@ export function ProjectJustScore() {
         </div>
 
         <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 mt-12">
-          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:col-start-5 md:col-span-7 h-96 md:max-h-164 shadow-2xl shadow-neutral-200">
+          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:col-start-5 md:col-span-7 h-96 md:h-auto md:max-h-164 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-1.webp"
               alt="JustScore product overview"
@@ -70,15 +70,15 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="space-y-2 px-0 py-6 md:px-12 md:py-8">
-              <h4 className="title-sm">Web & Mobile App Co-Design</h4>
-              <p className="copy">Participated during brainstorming sessions and user flow testing including engineers, as the employee voice, to influence design decisions.</p>
+            <div className="hidden md:block space-y-2 px-0 py-6 md:pr-16 md:py-8">
+              <h4 className="title-sm">Mobile App</h4>
+              <p className="copy-sm">Between brainstorming, flow testing, and collaboration with engineers, I guided design decisions by representing the employee’s perspective. I also co-designed the product with my co-founder using a shared design system.</p>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 mt-12">
-          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 md:max-h-164 md:col-span-7 shadow-2xl shadow-neutral-200">
+        <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 md:mt-12">
+          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 h-96 md:h-auto md:max-h-164 md:col-span-7 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-4.webp"
               alt="JustScore product overview"
@@ -98,7 +98,7 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="bg-neutral-light rounded-lg relative overflow-hidden aspect-4/3 shadow-2xl shadow-neutral-200">
+            <div className="hidden md:block bg-neutral-light rounded-lg relative overflow-hidden aspect-4/3 shadow-2xl shadow-neutral-200">
               <Image
                 src="/images/JustScore/js-6.webp"
                 alt="JustScore mobile preview"
@@ -107,9 +107,9 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="space-y-2 px-6 py-6 md:px-12 md:py-8">
-              <h4 className="title-sm">Web & Mobile App Co-Design</h4>
-              <p className="copy">Participated during brainstorming sessions and user flow testing including engineers, as the employee voice, to influence design decisions.</p>
+            <div className="hidden md:block space-y-2 py-6 md:pr-16 md:py-8">
+              <h4 className="title-sm">Web App</h4>
+              <p className="copy-sm">Although Justscore began as a web app, we differentiated its purpose from mobile by making it a manager’s full command centre. We adapted the design system and branding elements for consistency.</p>
             </div>
           </div>
         </div>
@@ -134,12 +134,12 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="space-y-2 px-6 py-8 md:px-10 md:py-16">
+            <div className="hidden md:block space-y-2 py-4 md:pr-12">
               <h4 className="title-sm">Branding & Illustration Collaboration</h4>
-              <p className="copy">After translating JustScore’s brand substance into identity, we collaborated closely with an Italian freelance illustrator to develop characters that softened the intensity of a high-performance product through warmth and relatability.</p>
+              <p className="copy-sm">After translating JustScore’s brand substance into identity, we collaborated closely with an Italian freelance illustrator to develop characters that softened the intensity of a high-performance product, through friendliness and relatability.</p>
             </div>
           </div>
-          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-span-7 md:max-h-148 shadow-2xl shadow-neutral-200">
+          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-span-7 h-56 md:h-auto md:max-h-128 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-7.webp"
               alt="JustScore product overview"
@@ -151,7 +151,7 @@ export function ProjectJustScore() {
         </div>
 
         <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145">
-          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 md:col-span-7 md:max-h-164 shadow-2xl shadow-neutral-200">
+          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-start-2 md:col-span-7 h-104 md:h-auto md:max-h-164 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-10.webp"
               alt="JustScore product overview"
@@ -179,9 +179,9 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="space-y-2 px-6 py-6 md:px-10 md:py-8">
-              <h4 className="title-sm">Marketing Website</h4>
-              <p className="copy">All product learning turned into aligned marketing and narrative strategy, to build our PLG-focused website and first acquisition funnel. I focused on UX writing, simplifying messaging across ICP-specific pages and creating brand-consistent AI Generated visuals.</p>
+            <div className="hidden md:block space-y-2 py-6 md:pr-12 md:py-8">
+              <h4 className="title-sm">Marketing</h4>
+              <p className="copy-sm">All product learnings were translated into a clear marketing narrative, helping us build our PLG-focused website and first acquisition funnel. Apart from co-designing the website, I led UX writing, simplified messaging across ICP-specific pages, and created brand-consistent AI-generated visuals.</p>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export function ProjectEarthBreath() {
               alt="EarthBreath logo"
               width={120}
               height={40}
-              className="w-full h-auto md:ml-4 md:max-h-48"
+              className="w-full h-auto -ml-8 md:ml-4 md:max-h-48"
             />
           </div>
           <div className="col-span-4 md:row-start-2 md:col-start-2 md:col-span-4 md:mt-16">

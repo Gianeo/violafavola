@@ -59,7 +59,7 @@ export function Hero({
                 alt=""
                 width={80}
                 height={80}
-                className="pointer-events-none absolute right-16 top-80 h-auto object-cover md:block opacity-20"
+                className="pointer-events-none absolute right-22 md:right-16 top-0 md:top-80 h-auto object-cover md:block opacity-20"
               />
           </div>
           <div className="col-span-4 flex flex-col gap-6 md:row-start-1 md:col-start-4 md:col-span-7 md:gap-8 relative">
@@ -73,7 +73,7 @@ export function Hero({
               alt=""
               width={96}
               height={96}
-              className="pointer-events-none absolute -left-14 -top-14 md:-top-10 h-auto object-cover md:block"
+              className="pointer-events-none absolute -left-10 md:-left-14 -top-7 md:-top-10 h-16 w-16 object-cover md:block md:h-24 md:w-24"
             />
           </div>
 
@@ -97,9 +97,10 @@ export function Hero({
 
           <div className="col-span-4 md:row-start-4 md:col-start-7 md:col-span-5">
             <p className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
-              My work focuses on making complex tools understandable, usable, and aligned with business reality, while operating inside ambiguity.
+              My work has always been centred around people and their experiences. Understanding people, anticipating their needs, guiding them to shape exceptional moments became a natural standard in everything I do.
 
-              I spent years at the intersection of people and fast-paced environments. I became the person others relied on to solve problems, handle digital friction, and keep experiences running smoothly. 
+              Watching awkward processes and small design failures shaping customer behaviour fuelled me toward designing systems that actually work for the people using them.
+Today, I embrace AI-native design to built tools people and businesses can intuitively use and grow with.
             </p>
           </div>
 
