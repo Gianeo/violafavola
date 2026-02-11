@@ -31,7 +31,7 @@ export function Hero({
     ));
 
   return (
-    <Section tone="dark" className="relative z-0 overflow-hidden">
+    <Section tone="dark" className="relative z-0 overflow-hidden pb-0!">
       <Container>
         <Image
           src="/images/hero.webp"
