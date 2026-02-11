@@ -30,6 +30,7 @@ export function TopLinks({ items, mobileLabel, className }: TopLinksProps) {
               href={item.href}
               aria-label={item.label}
               className="rounded-full border border-primary/20 bg-white/3 p-4 text-primary backdrop-blur transition hover:bg-white/10"
+              target="_blank"
             >
               {item.icon.endsWith(".svg") ? (
                 <span
