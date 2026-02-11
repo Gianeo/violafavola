@@ -22,7 +22,7 @@ export function ProjectEarthBreath() {
           <div className="col-span-4 md:row-start-2 md:col-start-2 md:col-span-4 md:mt-16">
             <h3 className="title">A Self-Initiated Ethical Brand Focused on Intentional Buying Experience.</h3>
           </div>
-          <div className="col-span-4 md:row-start-2 md:col-start-8 md:col-span-3 md:pt-1 md:mt-16">
+          <div className="col-span-4 md:row-start-2 md:col-start-8 md:col-span-4 md:pt-1 md:mt-16">
             <h3 className="copy">This project became a playground to explore how sustainability and luxury can look like when treated as one cohesive system. Including how branding, UX and product storytelling can work together to shape trust and buying behaviour in a crowded wellness market. The outcome was an e-commerce experience that felt calm, premium and intentional, while still making ideas like sustainability, materials and ethical production easy to understand for everyday customers.</h3>
           </div>
         </div>

@@ -5,7 +5,6 @@ import { Container } from "@/components/primitives/Container";
 import { Section } from "@/components/primitives/Section";
 import { TopLinks } from "@/components/primitives/TopLinks";
 import type { HeroContent } from "@/content/home";
-import { StartWave } from "../primitives/StartWave";
 
 export function Hero({
   headline,
@@ -20,9 +19,9 @@ export function Hero({
         {line}
       </span>
     ));
-  const renderParagraphs = (text: string, className?: string) =>
+  const renderParagraphs = (text: string) =>
     text.split("\n\n").map((paragraph, index) => (
-      <p key={`${paragraph}-${index}`} className={className}>
+      <p key={`${paragraph}-${index}`}>
         {paragraph.split("\n").map((line, lineIndex) => (
           <span key={`${line}-${lineIndex}`} className="block">
             {line}
@@ -64,9 +63,7 @@ export function Hero({
           </div>
           <div className="col-span-4 flex flex-col gap-6 md:row-start-1 md:col-start-4 md:col-span-7 md:gap-8 relative">
             <h1 className="display">
-              Visual.<br />
-              Design.<br />
-              Experience.<br />
+              {renderLines(headline)}
             </h1>
             <Image
               src="/images/bubble-1.webp"
@@ -96,12 +93,9 @@ export function Hero({
           </div>
 
           <div className="col-span-4 md:row-start-4 md:col-start-7 md:col-span-5">
-            <p className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
-              My work has always been centred around people and their experiences. Understanding people, anticipating their needs, guiding them to shape exceptional moments became a natural standard in everything I do.
-
-              Watching awkward processes and small design failures shaping customer behaviour fuelled me toward designing systems that actually work for the people using them.
-Today, I embrace AI-native design to built tools people and businesses can intuitively use and grow with.
-            </p>
+            <div className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
+              {renderParagraphs(subcopy)}
+            </div>
           </div>
 
         </div>
