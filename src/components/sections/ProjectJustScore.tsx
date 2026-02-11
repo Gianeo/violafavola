@@ -139,7 +139,7 @@ export function ProjectJustScore() {
               <p className="copy-sm">After translating JustScore’s brand substance into identity, we collaborated closely with an Italian freelance illustrator to develop characters that softened the intensity of a high-performance product, through friendliness and relatability.</p>
             </div>
           </div>
-          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-span-7 h-56 md:h-auto md:max-h-128 shadow-2xl shadow-neutral-200">
+          <div className="col-span-4 bg-neutral-light rounded-lg relative overflow-hidden aspect-auto md:col-span-7 h-74 md:h-auto md:max-h-128 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-7.webp"
               alt="JustScore product overview"

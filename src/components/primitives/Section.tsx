@@ -18,7 +18,7 @@ export function Section({
   return (
     <Comp
       className={cn(
-        "py-16 md:py-24",
+        "py-12 md:py-24",
         tone === "dark" ? "tone-dark bg-bg-dark text-fg-dark" : "bg-bg text-fg",
         className
       )}

@@ -5,7 +5,7 @@ import { Section } from "@/components/primitives/Section";
 export function ProjectEarthBreath() {
   return (
     <Section id="earthbreath">
-      <Container className="space-y-12 md:space-y-0">
+      <Container className="space-y-8 md:space-y-0">
         <div className="grid grid-cols-4 gap-y-6 md:grid-cols-12 md:mb-24">
           <div className="col-span-4 flex items-center md:row-start-1 md:col-start-2 md:col-span-9">
             <div className="copy-primary">3/3 Latest Venture</div>
@@ -27,9 +27,9 @@ export function ProjectEarthBreath() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-145">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-8 md:min-h-145">
           {/* Left column */}
-          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:row-span-2 md:col-start-2 md:col-span-4 shadow-2xl shadow-neutral-200">
+          <div className="col-span-1 rounded-lg relative overflow-hidden aspect-4/3 md:row-start-1 md:row-span-2 md:col-start-2 md:col-span-4 md:aspect-auto shadow-2xl shadow-neutral-200">
             <Image
               src="/images/EarthBreath/eb-1.webp"
               alt="SV interface detail"
@@ -38,7 +38,7 @@ export function ProjectEarthBreath() {
               sizes="(max-width: 768px) 90vw, 30vw"
             />
           </div>
-          <div className="col-span-4 grid grid-cols-3 gap-1 md:row-start-3 md:col-start-2 md:col-span-4">
+          <div className="col-span-1 grid grid-cols-3 gap-2 md:row-start-3 md:col-start-2 md:col-span-4 md:gap-1">
             <div className="space-y-1">
               <div className="rounded-tl-md relative overflow-hidden aspect-square shadow-2xl shadow-neutral-200">
                 <Image
@@ -92,7 +92,7 @@ export function ProjectEarthBreath() {
             </div>
           </div>
           {/* Right column */}
-          <div className="col-span-4 rounded-lg relative overflow-hidden md:row-start-1 md:col-start-6 md:col-span-1 shadow-2xl shadow-neutral-200">
+          <div className="hidden md:block col-span-1 rounded-lg relative overflow-hidden aspect-auto md:h-full md:row-start-1 md:col-start-6 md:col-span-1 md:aspect-auto shadow-2xl shadow-neutral-200">
             <Image
               src="/images/EarthBreath/eb-2.webp"
               alt="SV interface detail"
@@ -101,7 +101,7 @@ export function ProjectEarthBreath() {
               sizes="(max-width: 768px) 90vw, 30vw"
             />
           </div>
-          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-video md:row-start-1 md:col-start-7 md:col-span-5 md:aspect-video shadow-2xl shadow-neutral-200">
+          <div className="col-span-1 rounded-lg relative overflow-hidden aspect-video md:row-start-1 md:col-start-7 md:col-span-5 md:aspect-video shadow-2xl shadow-neutral-200">
             <Image
               src="/images/EarthBreath/eb-3.webp"
               alt="SV interface detail"
@@ -110,7 +110,7 @@ export function ProjectEarthBreath() {
               sizes="(max-width: 768px) 90vw, 30vw"
             />
           </div>
-          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-video md:row-start-2 md:row-span-2 md:col-start-6 md:col-span-6 md:aspect-4/3 shadow-2xl shadow-neutral-200">
+          <div className="col-span-1 rounded-lg relative overflow-hidden aspect-auto md:row-start-2 md:row-span-2 md:col-start-6 md:col-span-6 h-80  md:h-auto md:aspect-4/3 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/EarthBreath/eb-4.webp"
               alt="SV interface detail"
@@ -119,12 +119,12 @@ export function ProjectEarthBreath() {
               sizes="(max-width: 768px) 90vw, 30vw"
             />
           </div>
-          <div className="col-span-10 rounded-lg relative overflow-hidden aspect-auto md:row-start-4 md:col-start-2 min-h-36">
+          <div className="col-span-1 rounded-lg relative overflow-hidden md:row-start-4 md:col-start-2 md:col-span-10 aspect-auto h-16 md:h-auto md:min-h-36">
             <Image
               src="/images/EarthBreath/eb-11.webp"
               alt="SV interface detail"
               fill
-              className="object-cover"
+              className="object-contain md:object-cover"
               sizes="(max-width: 768px) 90vw, 30vw"
             />
           </div>

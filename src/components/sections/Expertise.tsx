@@ -13,7 +13,7 @@ export function Expertise({ items }: ExpertiseContent) {
     ));
 
   return (
-    <Section tone="dark" className="-mt-16">
+    <Section tone="dark">
       <Container>
       <Grid>
         <div className="col-span-4 flex flex-col gap-6 pb-6 md:col-start-4 md:col-span-7 md:gap-8 md:pb-8">

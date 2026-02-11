@@ -14,7 +14,7 @@ export default function HomePage() {
     <>
       <Hero {...hero} />
       <Expertise {...expertise} />
-      <main className="mb-24">
+      <main className="mb-12 md:mb-24">
         <DividerWave className="relative z-20 -mt-3 md:-mt-4" />
         {/* <About {...about} /> */}
         {/* <DividerWave /> */}
