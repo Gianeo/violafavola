@@ -17,7 +17,7 @@ export function TopLinks({ items, mobileLabel, className }: TopLinksProps) {
   return (
     <div
       className={cn(
-        "pointer-events-auto fixed left-0 right-0 top-0 z-30",
+        "pointer-events-auto fixed left-0 right-0 top-0 z-50",
         className
       )}
     >
