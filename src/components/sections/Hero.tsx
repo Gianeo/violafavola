@@ -94,7 +94,9 @@ export function Hero({
 
           <div className="col-span-4 md:row-start-4 md:col-start-7 md:col-span-5">
             <div className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
-              {renderParagraphs(subcopy)}
+              {renderParagraphs(
+                "My work has always been centred around people and their experiences. Understanding people, anticipating their needs, guiding them to shape exceptional moments became a natural standard in everything I do. Watching awkward processes and small design failures shaping customer behaviour fuelled me toward designing systems that actually work for the people using them. Today, I embrace AI-native design to built tools people and businesses can intuitively use and grow with."
+              )}
             </div>
           </div>
 
