@@ -44,7 +44,7 @@ export const homeContent = {
     headline: "Visual.\nDesign.\nExperience.",
     subcopy:
       "Designer and co-founder working at the intersection of product, people, and AI.",
-    cta: { label: "Let's work together", href: "#contact" },
+    cta: { label: "Let's work together", href: "mailto:violafavaretto99@gmail.com" },
     portrait: {
       src: "/images/viola-bubble.webp",
       alt: "Portrait placeholder",
