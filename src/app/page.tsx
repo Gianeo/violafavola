@@ -14,13 +14,13 @@ export default function HomePage() {
     <>
       <Hero {...hero} />
       <Expertise {...expertise} />
-      <main className="mb-12 md:mb-24">
-        <DividerWave className="relative z-20 -mt-3 md:-mt-4" />
+        <DividerWave className="relative z-20" />
+      <main className="bg-bg pb-12 md:pb-24">
         <ProjectJustScore />
         <ProjectSV />
         <ProjectEarthBreath />
       </main>
-      <DividerWave flip className="relative z-20 -mb-3 md:-mb-4" />
+      <DividerWave flip className="relative z-20" />
       <Footer {...footer} />
     </>
   );

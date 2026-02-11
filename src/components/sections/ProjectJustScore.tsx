@@ -21,7 +21,7 @@ export function ProjectJustScore() {
             />
           </div>
           <div className="col-span-4 md:row-start-2 md:col-start-2 md:col-span-4 md:mt-8">
-            <h3 className="title">Introducing Performance Clarity for Modern teams - Making Feedback Continuous, Fair and Actionable.</h3>
+            <h3 className="title">Co-founding a smarter way to track team performance.</h3>
           </div>
           <div className="col-span-4 md:row-start-2 md:col-start-8 md:col-span-4 md:pt-1 md:mt-8">
             <h3 className="copy">A performance management platform for managers that&apos;s simple, actionable, and genuinely motivating. Wore multiple hats as creative co-founder, and supported end-to-end in design and business; from UX/UI, marketing, go-to-market and more. While being mentored on my craft, I dived into applying AI tools and agents, for research, engagement, automations and multi-task management.</h3>

@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-bg text-fg font-sans text-body antialiased;
+    @apply bg-bg-dark text-fg font-sans text-body antialiased;
   }
 
   h1,

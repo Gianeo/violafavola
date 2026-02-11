@@ -41,7 +41,7 @@ export type FooterContent = {
 export const homeContent = {
   hero: {
     kicker: "Viola Favola",
-    headline: "Creative.\nThoughtful.\nHuman.",
+    headline: "Visual.\nDesign.\nExperience.",
     subcopy:
       "Designer and co-founder working at the intersection of product, people, and AI.",
     cta: { label: "Let's work together", href: "#contact" },
@@ -99,7 +99,7 @@ export const homeContent = {
       "A focused practice across product strategy, design systems, and emerging interactions.",
     items: [
       {
-        title: "User Experience & \nDesign System",
+        title: "User Experience & \nDesign Systems",
         description: "Scalable foundations that keep teams moving fast and aligned.",
         icon: "/images/Portfolio-V/icons/waypoints.svg",
       },
@@ -109,7 +109,7 @@ export const homeContent = {
         icon: "/images/Portfolio-V/icons/palette.svg",
       },
       {
-        title: "AI Literacy & \nGenAI",
+        title: "AI-assisted \nProcesses",
         description: "Human-first experiences for intelligent systems and new workflows.",
         icon: "/images/Portfolio-V/icons/sparkles.svg",
       },

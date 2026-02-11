@@ -8,7 +8,7 @@ export function ProjectEarthBreath() {
       <Container className="space-y-8 md:space-y-0">
         <div className="grid grid-cols-4 gap-y-6 md:grid-cols-12 md:mb-24">
           <div className="col-span-4 flex items-center md:row-start-1 md:col-start-2 md:col-span-9">
-            <div className="copy-primary">3/3 Latest Venture</div>
+            <div className="copy-primary">3/3 Earlier Days</div>
           </div>
           <div className="col-span-4 md:row-start-1 md:col-start-6 md:col-span-12">
             <Image
