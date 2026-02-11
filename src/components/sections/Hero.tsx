@@ -35,15 +35,15 @@ export function Hero({
     <Section tone="dark" className="relative z-0 overflow-hidden">
       <Container>
         <Image
-          src="/images/Portfolio-V/viola-img-2.webp"
+          src="/images/hero.webp"
           alt=""
-          width={760}
-          height={760}
-          className="pointer-events-none absolute left-[45%] top-24 hidden h-auto object-cover opacity-50 md:block"
+          width={640}
+          height={640}
+          className="pointer-events-none absolute left-[50%] top-0 hidden h-auto object-cover md:block "
           priority
         />
-        <div className="relative z-10 grid grid-cols-4 gap-y-10 md:grid-cols-12 md:gap-y-16">
-          <div className="col-span-4 flex items-center justify-start md:row-start-1 md:col-start-2 md:col-span-2">
+        <div className="relative z-10 grid grid-cols-4 gap-y-10 md:grid-cols-12 md:gap-y-8 mt-24">
+          <div className="relative col-span-4 flex items-center justify-start md:row-start-1 md:col-start-2 md:col-span-2">
             <div className="relative size-28 overflow-hidden rounded-full border border-border/60 bg-card/20 md:size-40">
               <Image
                 src={portrait.src}
@@ -54,20 +54,34 @@ export function Hero({
                 priority
               />
             </div>
+              <Image
+                src="/images/bubble-2.webp"
+                alt=""
+                width={80}
+                height={80}
+                className="pointer-events-none absolute right-16 top-80 hidden h-auto object-cover md:block opacity-20"
+              />
           </div>
-          <div className="col-span-4 flex flex-col gap-6 md:row-start-1 md:col-start-4 md:col-span-7 md:gap-8">
+          <div className="col-span-4 flex flex-col gap-6 md:row-start-1 md:col-start-4 md:col-span-7 md:gap-8 relative">
             <h1 className="display">
-              Creative.<br />
-              Thoughtful.<br />
-              Human.<br />
+              Visual.<br />
+              Design.<br />
+              Experience.<br />
             </h1>
+            <Image
+              src="/images/bubble-1.webp"
+              alt=""
+              width={96}
+              height={96}
+              className="pointer-events-none absolute -left-14 -top-10 hidden h-auto object-cover md:block"
+            />
           </div>
 
-          <div className="hidden items-center gap-8 pr-8 md:row-start-2 md:col-start-1 md:col-span-8 md:flex">
+          {/* <div className="hidden items-center gap-8 pr-8 md:row-start-2 md:col-start-1 md:col-span-8 md:flex">
             <StartWave />
-          </div>
+          </div> */}
 
-          <div className="col-span-4 flex items-center gap-8 md:row-start-2 md:col-start-9 md:col-span-3 md:justify-end">
+          <div className="col-span-4 flex flex-col items-end gap-8 md:row-start-1 md:col-start-9 md:col-span-3 md:justify-end pb-4">
             <div className="copy-primary">Viola Favaretto</div>
           </div>
 
@@ -81,7 +95,7 @@ export function Hero({
             </Button>
           </div>
 
-          <div className="col-span-4 md:row-start-4 md:col-start-6 md:col-span-5">
+          <div className="col-span-4 md:row-start-4 md:col-start-7 md:col-span-5">
             <p className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
               My work focuses on making complex tools understandable, usable, and aligned with business reality, while operating inside ambiguity.<br /><br />
 

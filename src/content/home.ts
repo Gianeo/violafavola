@@ -46,7 +46,7 @@ export const homeContent = {
       "Designer and co-founder working at the intersection of product, people, and AI.",
     cta: { label: "Let's work together", href: "#contact" },
     portrait: {
-      src: "/images/Portfolio-V/viola-img-1.webp",
+      src: "/images/viola-bubble.webp",
       alt: "Portrait placeholder",
     },
     social: [

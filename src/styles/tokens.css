@@ -53,7 +53,7 @@
   --neutral-base: 225 5% 50%;
   --neutral-dark: 225 6% 40%;
   --neutral-darker: 225 7% 28%;
-  --neutral-darkest: 225 8% 5%;
+  --neutral-darkest: 225 8% 2%;
   --bg: var(--neutral-lightest);
   --bg-dark: var(--neutral-darkest);
   --fg: var(--neutral-dark);

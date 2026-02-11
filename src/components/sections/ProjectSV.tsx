@@ -16,7 +16,7 @@ export function ProjectSV() {
               alt="SV logo"
               width={373}
               height={180}
-              className="w-60 h-auto grayscale md:ml-4 md:w-[373px] md:h-[180px]"
+              className="w-60 h-auto grayscale md:ml-4 md:w-93.25 md:h-45"
             />
           </div>
           <div className="col-span-4 md:row-start-2 md:col-start-2 md:col-span-4 md:mt-16">
@@ -28,55 +28,55 @@ export function ProjectSV() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-[580px]">
-          <div className="col-span-4 bg-neutral-light rounded-md relative overflow-hidden aspect-[3/4] md:col-start-2 md:col-span-5 md:aspect-auto md:max-h-[874px]">
-            {/* <Image
-              src="/images/JustScore/js-img-1.webp"
-              alt="JustScore product overview"
+        <div className="grid grid-cols-4 gap-6 md:grid-cols-12 md:gap-8 md:min-h-145">
+          <div className="col-span-4 rounded-md relative overflow-hidden aspect-3/4 md:col-start-2 md:col-span-5 md:aspect-auto md:max-h-218.5 shadow-2xl shadow-neutral-200">
+            <Image
+              src="/images/SV/sv-1.webp"
+              alt="SV product overview"
               fill
-              className="object-contain"
+              className="object-cover"
               sizes="(max-width: 768px) 90vw, 60vw"
-            /> */}
+            />
           </div>
           <div className="col-span-4 space-y-6 md:col-span-5 md:space-y-8">
             <div className="grid grid-cols-2 gap-4 md:flex md:gap-8">
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
-                {/* <Image
-                src="/images/JustScore/js-img-1.2.webp"
-                alt="JustScore interface detail"
+              <div className="rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-60 shadow-2xl shadow-neutral-200">
+                <Image
+                src="/images/SV/sv-2.webp"
+                alt="SV interface detail"
                 fill
-                className="object-contain"
+                className="object-cover"
                 sizes="(max-width: 768px) 90vw, 30vw"
-              /> */}
+              />
               </div>
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
-                {/* <Image
-                src="/images/JustScore/js-img-1.3.webp"
-                alt="JustScore mobile preview"
+              <div className="rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-60 shadow-2xl shadow-neutral-200">
+                <Image
+                src="/images/SV/sv-3.webp"
+                alt="SV mobile preview"
                 fill
-                className="object-contain"
+                className="object-cover"
                 sizes="(max-width: 768px) 90vw, 30vw"
-              /> */}
+              />
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 md:flex md:gap-8">
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
-                {/* <Image
-                src="/images/JustScore/js-img-1.2.webp"
-                alt="JustScore interface detail"
+              <div className="rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-60 shadow-2xl shadow-neutral-200">
+                <Image
+                src="/images/SV/sv-4.webp"
+                alt="SV interface detail"
                 fill
-                className="object-contain"
+                className="object-cover"
                 sizes="(max-width: 768px) 90vw, 30vw"
-              /> */}
+              />
               </div>
-              <div className="bg-neutral-light rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-[240px]">
-                {/* <Image
-                src="/images/JustScore/js-img-1.3.webp"
-                alt="JustScore mobile preview"
+              <div className="rounded-md relative overflow-hidden aspect-square w-full md:flex-1 md:min-h-60 shadow-2xl shadow-neutral-200">
+                <Image
+                src="/images/SV/sv-5.webp"
+                alt="SV mobile preview"
                 fill
-                className="object-contain"
+                className="object-cover"
                 sizes="(max-width: 768px) 90vw, 30vw"
-              /> */}
+              />
               </div>
             </div>
             <div className="space-y-2 px-6 py-6 md:max-w-md md:px-12 md:py-8">

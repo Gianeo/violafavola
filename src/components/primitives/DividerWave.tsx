@@ -11,28 +11,25 @@ export function DividerWave({ className, flip = false }: DividerWaveProps) {
   return (
     <div className={cn("w-full overflow-hidden text-primary", className)} aria-hidden>
       <svg
-        viewBox="0 0 1122 33"
+        viewBox="0 0 426 32"
         preserveAspectRatio="none"
         className={cn(
-          "h-6 w-full max-w-[60rem] mx-auto fill-current md:h-8",
+          "h-6 w-full max-w-106.5 mx-auto md:h-8",
           flip && "rotate-180"
         )}
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        {/* <line
-          x1="0"
-          y1="16.75"
-          x2="1122"
-          y2="16.7501"
-          stroke="currentColor"
-          strokeWidth="1.5"
-        /> */}
         <path
-          d="M543.298 16.323C483 52.728 384.5 16.323 305 16.323L543.298 16.323C602.265 -19.2788 731.853 16.323 802 16.323H543.298Z"
-          fill="currentColor"
+          d="M203.891 15.7991C152.299 51.1009 68.0214 15.7991 0 15.7991H203.891ZM203.891 15.7991C254.344 -18.7239 365.222 15.7991 425.241 15.7991H203.891Z"
+          fill="#6653C6"
+          fillOpacity="0.6"
         />
         <path
-          d="M543.298 16.323C483 52.728 384.5 16.323 305 16.323L543.298 16.323ZM543.298 16.323C602.265 -19.2788 731.853 16.323 802 16.323H543.298Z"
-          stroke="currentColor"
+          d="M203.891 15.7991C152.299 51.1009 68.0214 15.7991 0 15.7991H203.891ZM203.891 15.7991C254.344 -18.7239 365.222 15.7991 425.241 15.7991H203.891Z"
+          stroke="#6653C6"
+          strokeOpacity="0.2"
+          strokeWidth="0.910872"
         />
       </svg>
     </div>

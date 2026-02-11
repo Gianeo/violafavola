@@ -32,8 +32,8 @@ export function Footer({
   return (
     <Section as="footer" tone="dark" id="contact">
       <Container>
-        <div className="grid grid-cols-4 gap-8 pt-8 md:grid-cols-12 md:min-h-[580px]">
-          <div className="col-span-4 rounded-md relative overflow-hidden aspect-[16/9] md:col-start-2 md:col-span-6 md:max-h-[400px]">
+        <div className="grid grid-cols-4 gap-8 pt-8 md:grid-cols-12 md:min-h-145 mt-16">
+          <div className="col-span-4 rounded-md relative overflow-hidden aspect-video md:col-start-2 md:col-span-6 md:max-h-100">
               <Image
                 src={image.src}
                 alt={image.alt}
