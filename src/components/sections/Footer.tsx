@@ -47,7 +47,7 @@ export function Footer({
             <div className="max-w-md space-y-4">
               {renderParagraphs(body, "text-body text-muted-foreground")}
             </div>
-            <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+            <div className="flex flex-wrap gap-4">
               <Button asChild size="lg">
                 <a href={primaryCta.href} className="flex items-center gap-2">
                   {renderLines(primaryCta.label)}

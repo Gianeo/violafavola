@@ -69,6 +69,6 @@
     @apply text-large leading-large tracking-large;
   }
   .copy-primary {
-    @apply whitespace-nowrap text-primary text-xs font-semibold tracking-[0.6rem] leading-overline;
+    @apply whitespace-nowrap text-primary text-xs font-semibold tracking-[0.4rem] leading-overline;
   }
 }

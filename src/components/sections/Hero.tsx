@@ -39,10 +39,10 @@ export function Hero({
           alt=""
           width={640}
           height={640}
-          className="pointer-events-none absolute left-[50%] top-0 hidden h-auto object-cover md:block "
+          className="pointer-events-none absolute left-[50%] top-0 h-auto object-cover md:block "
           priority
         />
-        <div className="relative z-10 grid grid-cols-4 gap-y-10 md:grid-cols-12 md:gap-y-8 mt-24">
+        <div className="relative z-10 grid grid-cols-4 gap-y-10 md:grid-cols-12 md:gap-y-8 mt-8 md:mt-24">
           <div className="relative col-span-4 flex items-center justify-start md:row-start-1 md:col-start-2 md:col-span-2">
             <div className="relative size-28 overflow-hidden rounded-full border border-border/60 bg-card/20 md:size-40">
               <Image
@@ -59,7 +59,7 @@ export function Hero({
                 alt=""
                 width={80}
                 height={80}
-                className="pointer-events-none absolute right-16 top-80 hidden h-auto object-cover md:block opacity-20"
+                className="pointer-events-none absolute right-16 top-80 h-auto object-cover md:block opacity-20"
               />
           </div>
           <div className="col-span-4 flex flex-col gap-6 md:row-start-1 md:col-start-4 md:col-span-7 md:gap-8 relative">
@@ -73,7 +73,7 @@ export function Hero({
               alt=""
               width={96}
               height={96}
-              className="pointer-events-none absolute -left-14 -top-10 hidden h-auto object-cover md:block"
+              className="pointer-events-none absolute -left-14 -top-14 md:-top-10 h-auto object-cover md:block"
             />
           </div>
 
@@ -81,7 +81,7 @@ export function Hero({
             <StartWave />
           </div> */}
 
-          <div className="col-span-4 flex flex-col items-end gap-8 md:row-start-1 md:col-start-9 md:col-span-3 md:justify-end pb-4">
+          <div className="col-span-4 hidden flex-col items-end gap-8 md:row-start-1 md:col-start-9 md:col-span-3 md:flex md:justify-end pb-4">
             <div className="copy-primary">Viola Favaretto</div>
           </div>
 
@@ -97,16 +97,15 @@ export function Hero({
 
           <div className="col-span-4 md:row-start-4 md:col-start-7 md:col-span-5">
             <p className="copy columns-1 gap-6 md:columns-2 md:gap-8 md:max-w-2xl">
-              My work focuses on making complex tools understandable, usable, and aligned with business reality, while operating inside ambiguity.<br /><br />
+              My work focuses on making complex tools understandable, usable, and aligned with business reality, while operating inside ambiguity.
 
-              I spent years at the intersection of people and fast-paced environments. I became the person others relied on to solve problems, handle digital friction, and keep experiences running smoothly. Watching how tools, processes, and small design failures shaped behaviour pushed me toward designing systems that actually work for the people using them.<br /><br />
-              I’m now shaping my work around being AI-native, systematic, and design real product impact, with the goal of building tools that grow with both people and the businesses behind them.
+              I spent years at the intersection of people and fast-paced environments. I became the person others relied on to solve problems, handle digital friction, and keep experiences running smoothly. 
             </p>
           </div>
 
         </div>
       </Container>
-      <TopLinks items={social} />
+      <TopLinks items={social} mobileLabel="Viola Favaretto" />
     </Section>
   );
 }

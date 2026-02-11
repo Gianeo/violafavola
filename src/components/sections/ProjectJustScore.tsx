@@ -17,7 +17,7 @@ export function ProjectJustScore() {
               alt="JustScore logo"
               width={120}
               height={40}
-              className="w-full h-auto md:ml-4 md:max-h-64"
+              className="w-full h-auto -ml-12 md:ml-4 md:max-h-64"
             />
           </div>
           <div className="col-span-4 md:row-start-2 md:col-start-2 md:col-span-4 md:mt-8">
@@ -41,7 +41,7 @@ export function ProjectJustScore() {
         </div>
 
         <div className="grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-16 md:min-h-145 mt-12">
-          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:col-start-5 md:col-span-7 md:max-h-164 shadow-2xl shadow-neutral-200">
+          <div className="col-span-4 rounded-lg relative overflow-hidden aspect-auto md:row-start-1 md:col-start-5 md:col-span-7 h-96 md:max-h-164 shadow-2xl shadow-neutral-200">
             <Image
               src="/images/JustScore/js-1.webp"
               alt="JustScore product overview"
@@ -52,7 +52,7 @@ export function ProjectJustScore() {
           </div>
 
           <div className="col-span-4 grid grid-cols-1 gap-4 md:row-start-1 md:col-start-2 md:col-span-3 md:gap-8">
-            <div className="bg-neutral-light rounded-lg relative overflow-hidden aspect-4/3 shadow-2xl shadow-neutral-200">
+            <div className="hidden md:block bg-neutral-light rounded-lg relative overflow-hidden aspect-4/3 shadow-2xl shadow-neutral-200">
               <Image
                 src="/images/JustScore/js-2.webp"
                 alt="JustScore interface detail"
@@ -70,7 +70,7 @@ export function ProjectJustScore() {
                 sizes="(max-width: 768px) 90vw, 30vw"
               />
             </div>
-            <div className="space-y-2 px-6 py-6 md:px-12 md:py-8">
+            <div className="space-y-2 px-0 py-6 md:px-12 md:py-8">
               <h4 className="title-sm">Web & Mobile App Co-Design</h4>
               <p className="copy">Participated during brainstorming sessions and user flow testing including engineers, as the employee voice, to influence design decisions.</p>
             </div>
