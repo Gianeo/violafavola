@@ -28,6 +28,15 @@ const generalSans = localFont({
 export const metadata: Metadata = {
   title: "Designer Portfolio",
   description: "Swiss-inspired designer portfolio landing page.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.png",
+        type: "image/png",
+        sizes: "72x72",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
